@@ -7,13 +7,13 @@ import Header from "./components/Header.js";
 
 export default function App() {
 
-  return (
-    <div className="App">
-      <Header />
-      <Switch>
-        {/* Build out a Private Route */}
-        <Route exact path="/login" component={Login} />
-      </Switch>
-    </div>
-  );
+   return (
+      <div className="App">
+         <Header />
+         <Switch>
+            {/* Build out a Private Route */}
+            <Route exact path="/login" component={Login} />
+         </Switch>
+      </div>
+   );
 };
